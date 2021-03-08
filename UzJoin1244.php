@@ -5,7 +5,7 @@ error_reporting(0);
 set_time_limit(0);
 
 flush();
-$API_KEY = '1544026937:AAHNYBttz2TkwnwuxHn0u1FHUfaV1Dem0RE';
+$API_KEY = '1696622702:AAH4szyHdidoKIb4Yl763VfnFDKWD2xiYAo';
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
